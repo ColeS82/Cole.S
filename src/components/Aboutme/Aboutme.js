@@ -1,6 +1,6 @@
 import proPic from '../../images/Cole.png';
-import './Home.css'
-export default function Home() {
+import './Aboutme.css'
+export default function Aboutme() {
     return (
         <main className="">
             <div id='container1' className='d-flex container-fluid justify-content-center'>

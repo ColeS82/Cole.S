@@ -1,5 +1,5 @@
 import Header from './components/Header/Header';
-import Home from './components/Home/Home';
+import Aboutme from './components/Aboutme/Aboutme';
 import Footer from './components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Aboutme />
       <Footer />
       </>
   );

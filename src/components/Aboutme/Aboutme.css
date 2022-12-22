@@ -21,15 +21,20 @@
     font-weight: bolder;
 }
 
-#welcome{
+
+main{
+    background-color: rgb(50, 50, 50);
+}
+
+#about{
     color: whitesmoke;
-    width: 85rem;
     background-color: rgb(45, 56, 72);
     border-radius:10px 90px 90px 10px;
     border: solid gray;
+    
 }
 
-.welcomP{
+.aboutP{
     font-size: 20px;
     text-indent: 1.5rem;
 }

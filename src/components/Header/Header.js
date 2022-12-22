@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Clock from '../Clock/Clock'
 import logo from '../../images/channels4_profile.jpg'
 import './Header.css'
@@ -22,7 +23,7 @@ export default function Header() {
                     <div className="col justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Home</a>
+                                <Link to="/cole.s" className="nav-link">Home</Link>
                             </li>
 
                             <li className="nav-item">
@@ -34,7 +35,7 @@ export default function Header() {
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <Link to ="/Aboutme" className="nav-link">About Me</Link>
                             </li>
                         </ul>
                     </div>

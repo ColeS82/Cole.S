@@ -27,7 +27,7 @@ export default function Aboutme() {
 
                 <section id='welcome' className=' p-5'>
                     <h2 className='text-center'>
-                        Something to say
+                        About Me
                     </h2>
                     
                     <p className='welcomP'>

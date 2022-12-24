@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import Particles from 'react-particles';
+import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 
 export default function Particle() {
@@ -337,9 +337,10 @@ export default function Particle() {
                       "enable": false
                     },
                     "straight": false,
+  //trails
                     "trail": {
                       "enable": true,
-                      "length": 3,
+                      "length": 30,
                       "fillColor": {
                         "value": "#000000"
                       }

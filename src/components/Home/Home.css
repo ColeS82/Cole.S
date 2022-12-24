@@ -1,20 +1,11 @@
-#home-main{
-    /* background-color: rgb(201, 203, 218); */
-    /* min-height: 90vh; */
-}
+
 
 #hello{
     color: whitesmoke;
     margin-top: 15rem;
     height: 20rem;
-    background-color: rgba(74, 74, 83, 0.98);
+    background-color: rgba(33, 33, 37, 0.983);
     font-size: xx-large;
 }
 
-/* #welcome{
-    
-    height: 20rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+

@@ -1,4 +1,4 @@
-import { SiHtml5, SiCss3, SiJavascript, SiJquery, SiBootstrap, SiNodedotjs, SiExpress, SiSequelize, SiHandlebarsdotjs, SiMongodb, SiPwa, SiReact, SiGraphql, SiGithub} from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiReact, SiGraphql,} from 'react-icons/si';
 import proPic from '../../images/Cole.png';
 import './Aboutme.css';
 export default function Aboutme() {

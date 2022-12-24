@@ -11,7 +11,6 @@
 #idCard {
     margin-right: 40px;
     max-width: fit-content;
-    /* max-height: fit-content; */
     border-radius: 90px 5px 90px 5px;
     padding: 40px 10px 25px 10px;
 }
@@ -22,7 +21,7 @@
 }
 
 
-main{
+#about-main{
     background-color: rgb(50, 50, 50);
 }
 
@@ -31,13 +30,21 @@ main{
     background-color: rgb(45, 56, 72);
     border-radius:10px 90px 90px 10px;
     border: solid gray;
+    font-size: x-large;
     
 }
 
+
 .aboutP{
-    font-size: 20px;
     text-indent: 1.5rem;
 }
 
+
+
+.cell {
+    width: 40%;
+    border-left: solid 3px rgb(5, 117, 192);
+    padding: 10px;
+}
 
 

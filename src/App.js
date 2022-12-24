@@ -5,10 +5,11 @@ import Footer from './components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import './App.css';
-import {Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
+
 
 function App() {
- 
+
   return (
     <>
       <Header />
@@ -16,12 +17,10 @@ function App() {
         <Route path='/cole.s' element={<Home />} />
         <Route path='/Aboutme' element={<Aboutme />} />
       </Routes>
-      {/* <Home />
-      <Aboutme /> */}
       <Footer />
-      </>
+    </>
   );
 }
-console.log(window.location.pathname)
+
 
 export default App;

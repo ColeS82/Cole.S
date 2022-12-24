@@ -10,7 +10,7 @@ export default function Clock() {
     const month = months[now.getUTCMonth()]
     const date = month + ' ' +  now.getDate()+ '. ' + now.getUTCFullYear();
     return (
-        <div id='clock' className="d-flex flex-column text-center col-6">
+        <div id='clock' className="d-flex flex-column text-center col-5">
             <div>
                 {day}
             </div>

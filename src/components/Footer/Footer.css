@@ -1,0 +1,7 @@
+footer{
+    min-height: 4rem;
+    color: whitesmoke;
+    background-color: rgb(1, 1, 1);
+    position: fixed;
+    bottom: 0;
+}

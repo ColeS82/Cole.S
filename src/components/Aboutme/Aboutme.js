@@ -1,3 +1,4 @@
+import Resume from '../../images/Resume.pdf'
 import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiReact, SiGraphql,} from 'react-icons/si';
 import proPic from '../../images/Cole.png';
 import './Aboutme.css';
@@ -20,9 +21,9 @@ export default function Aboutme() {
                             GitHub:<br></br>
                             https://github.com/ColeS82
                         </p>
-                        <button className='btn btn-info'>
-                            Resume
-                        </button>
+                        <a type='button' className='btn btn-info' href={Resume} target='_blank'>
+                        Resume
+                        </a>
                     </figcaption>
                 </figure>
 

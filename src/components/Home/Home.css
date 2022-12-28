@@ -1,11 +1,13 @@
 
 
 #hello{
+    /* display: inline-block; */
     color: whitesmoke;
-    margin-top: 15rem;
-    height: 20rem;
+    /* margin-top: 15rem; */
+    /* height: 20rem; */
     background-color: rgba(33, 33, 37, 0.983);
-    font-size: xx-large;
+    font-size: large;
+   
 }
 
 

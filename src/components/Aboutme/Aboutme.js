@@ -5,9 +5,9 @@ import proPic from '../../images/Cole.png';
 import './Aboutme.css';
 export default function Aboutme() {
     return (
-        <main id='about-main' className="">
-            <div id='container1' className='d-flex container-fluid justify-content-center'>
-                <figure id='idCard' className='bg-primary card text-white'>
+        <main id='about-main'>
+            <div id='container1' className='d-flex flex-wrap container-fluid justify-content-center'>
+                <figure id='idCard' className='bg-primary card text-white pb-0'>
                     <img src={proPic} id='pic' />
 
                     <figcaption className='card-body'>
@@ -18,33 +18,36 @@ export default function Aboutme() {
                             Full Stack Developer
                         </section>
 
-                        <p className='mt-3'>
-                            GitHub:<br></br>
+                        <div className='my-3'>
+                            <h5>GitHub:</h5>
                             <a href='https://github.com/ColeS82' target='_blank' className='text-white'>
                                 https://github.com/ColeS82
                             </a>
-                        </p>
-                        <a type='button' className='btn btn-info' href={Resume} target='_blank'>
+                        </div>
+                        <a type='button' className='btn btn-info mt-3' href={Resume} target='_blank'>
                             Resume
                         </a>
                     </figcaption>
                 </figure>
 
-                <div id='aboutCont' className='d-flex flex-column justify-content-center col-8'>
+                <div id='aboutCont' className='d-flex flex-column justify-content-center col-sm-8'>
                     <section id='about' className=' p-4'>
                         <h1 className='text-center'>
                             About Me
                         </h1>
 
                         <p className='aboutP'>
-                            I am a recent graduate of the Univerity of Arizona Full Stack Web Development Certificate program.
+                            Hello!  Thanks for checking out my online portfolio.  I am a recent graduate of the Univerity of Arizona Full Stack Web Development Certificate program.
+                        </p>
+                        <p className='aboutP'>
+                            I find myself most enjoying the front end of my apps that I have created.  This website is my excersise in honing my skills with React.  I am enjoying the website so far and have much planned for it.
                         </p>
 
-                        <h2 className='text-center container col-5 pb-2'>
+                        <h3 className='text-center container col-5 mt-5 pb-1'>
                             Skills
-                        </h2>
+                        </h3>
 
-                        <table className='mt-3 mx-auto text-white'>
+                        <table className='mx-auto text-white '>
                             <tr>
                                 <td className='cell'>
                                     <SiHtml5 className='me-2'></SiHtml5>
@@ -65,7 +68,7 @@ export default function Aboutme() {
                                     CSS
                                 </td>
                                 <td className='cell'>
-                                    <SiBootstrap className='me-2'></SiBootstrap>Bootstrap CSS framework
+                                    <SiBootstrap className='me-2'></SiBootstrap>Bootstrap
                                 </td>
                                 <td className='cell'>
                                     <SiNodedotjs className='me-2'></SiNodedotjs>

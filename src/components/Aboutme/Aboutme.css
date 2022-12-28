@@ -4,7 +4,7 @@
 
 #pic {
     max-height: 350px;
-    object-fit: contain;
+    /* object-fit: contain; */
     border-radius: 80px;
 }
 
@@ -42,9 +42,18 @@
 
 
 .cell {
+    font-size: 1.1rem;
     width: 40%;
     border-left: solid 3px rgb(5, 117, 192);
     padding: 10px;
 }
 
+@media screen and (max-width:600px){
 
+#idCard{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    order: 2;
+}
+
+}

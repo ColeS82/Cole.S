@@ -1,5 +1,6 @@
+
 import Resume from '../../images/Resume.pdf'
-import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiReact, SiGraphql,} from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiReact, SiGraphql, } from 'react-icons/si';
 import proPic from '../../images/Cole.png';
 import './Aboutme.css';
 export default function Aboutme() {
@@ -19,10 +20,12 @@ export default function Aboutme() {
 
                         <p className='mt-3'>
                             GitHub:<br></br>
-                            https://github.com/ColeS82
+                            <a href='https://github.com/ColeS82' target='_blank' className='text-white'>
+                                https://github.com/ColeS82
+                            </a>
                         </p>
                         <a type='button' className='btn btn-info' href={Resume} target='_blank'>
-                        Resume
+                            Resume
                         </a>
                     </figcaption>
                 </figure>
@@ -44,7 +47,7 @@ export default function Aboutme() {
                         <table className='mt-3 mx-auto text-white'>
                             <tr>
                                 <td className='cell'>
-                                    <SiHtml5 className='me-2'></SiHtml5> 
+                                    <SiHtml5 className='me-2'></SiHtml5>
                                     HTML-5
                                 </td>
                                 <td className='cell'>

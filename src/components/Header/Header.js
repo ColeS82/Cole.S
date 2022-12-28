@@ -8,12 +8,13 @@ export default function Header() {
         <header>
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
                 <div className="container-fluid mx-2">
-                    <img id='logo' src={logo} />
+                    <div className='col-3'>
+                    <img id='logo'className='mx-1' src={logo} />
 
-                    <div className='text-white pt-4 ps-1 col-sm-3 '>
+                    <div className='text-white '>
                         Cole.S
                     </div>
-                    
+                    </div>
                     <Clock />
                     
                     <button className="navbar-toggler col-sm-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">

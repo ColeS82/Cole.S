@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
                 <div className="container-fluid mx-2">
-                    <div className='col-3'>
+                    <div className='col-sm-3'>
                     <img id='logo'className='mx-1' src={logo} />
 
                     <div className='text-white '>

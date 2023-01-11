@@ -1,4 +1,4 @@
-
+import Ticker from '../Tickers/Ticker';
 import Resume from '../../images/Resume.pdf'
 import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiReact, SiGraphql, } from 'react-icons/si';
 import proPic from '../../images/Cole.png';
@@ -8,7 +8,7 @@ export default function Aboutme() {
         <main id='about-main'>
             <div id='container1' className='d-flex flex-wrap container-fluid justify-content-center'>
                 <figure id='idCard' className='bg-primary card text-white pb-0'>
-                    <img src={proPic} id='pic' />
+                    <img src={proPic} id='pic' alt='Cole Sexson' />
 
                     <figcaption className='card-body'>
                         <section className='border-bottom'>
@@ -20,11 +20,11 @@ export default function Aboutme() {
 
                         <div className='my-3'>
                             <h5>GitHub:</h5>
-                            <a href='https://github.com/ColeS82' target='_blank' className='text-white'>
+                            <a href='https://github.com/ColeS82' target='_blank' rel='noreferrer' className='text-white'>
                                 https://github.com/ColeS82
                             </a>
                         </div>
-                        <a type='button' className='btn btn-info mt-3' href={Resume} target='_blank'>
+                        <a type='button' className='btn btn-info mt-3' href={Resume} target='_blank' rel='noreferrer'>
                             Resume
                         </a>
                     </figcaption>
@@ -48,6 +48,7 @@ export default function Aboutme() {
                         </h3>
 
                         <table className='mx-auto text-white '>
+                            <tbody>
                             <tr>
                                 <td className='cell'>
                                     <SiHtml5 className='me-2'></SiHtml5>
@@ -89,12 +90,12 @@ export default function Aboutme() {
                                     Express js
                                 </td>
                             </tr>
+                            </tbody>
                         </table>
                     </section>
                 </div>
+            <Ticker />
             </div>
-
-
         </main>
     )
 }

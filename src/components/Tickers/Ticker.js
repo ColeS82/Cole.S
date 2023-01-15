@@ -13,16 +13,12 @@ export default function Ticker() {
         axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false')
             .then(res => {
                 setBtc(res.data[0]);
-                setEth(res.data[1])
-                setAda(res.data[7])
-
-                console.log(btc)
-
+                setEth(res.data[1]);
+                setAda(res.data[7]);
             })
             .catch(error => console.log(error))
     }, []
     );
-
 
     return (
         <table id='Ticker' className='text-success col bg-black m-5 '>
@@ -35,7 +31,12 @@ export default function Ticker() {
                     <td className='col-2'>
                         {btc.name}
                     </td>
-                    <td className='text-center'><button className='btn btn-sm btn-warning'>White Paper</button></td>
+                    <td className='text-center'>
+                        <a href='https://bitcoin.org/bitcoin.pdf' target='_blank' rel='noreferrer'>
+                            <button className='btn btn-sm btn-warning'>White Paper
+                            </button>
+                        </a>
+                    </td>
                     <td className='text-end pe-4'>
                         ${btc.current_price}
                     </td>
@@ -47,7 +48,12 @@ export default function Ticker() {
                     <td>
                         {eth.name}
                     </td>
-                    <td className='text-center'><button className='btn btn-sm btn-secondary'>White Paper</button></td>
+                    <td className='text-center'>
+                        <a href='https://ethereum.org/en/whitepaper/' target='_blank' rel='noreferrer'>
+                            <button className='btn btn-sm btn-secondary'>White Paper
+                            </button>
+                        </a>
+                    </td>
                     <td className='text-end pe-4'>
                         ${eth.current_price}
                     </td>
@@ -60,7 +66,12 @@ export default function Ticker() {
                     <td>
                         {ada.name}
                     </td>
-                    <td className='text-center'><button className='btn btn-sm btn-primary'>White Paper</button></td>
+                    <td className='text-center'>
+                        <a href='https://docs.cardano.org/introduction' target='_blank' rel='noreferrer'>
+                            <button style={{backgroundColor: 'rgb(5, 77, 162)'}} className='btn btn-sm text-white'>White Paper
+                            </button>
+                        </a>
+                    </td>
                     <td className='text-end pe-4'>
                         ${ada.current_price}
                     </td>

@@ -6,7 +6,7 @@ import './Header.css'
 export default function Header() {
     return (
         <header>
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+            <nav className="navbar navbar-expand-sm bg-black navbar-dark">
                 <div className="container-fluid mx-2">
                     <div className='col-sm-3'>
                     <img id='logo'className='mx-1' src={logo} alt='logo' />

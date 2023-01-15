@@ -7,7 +7,7 @@ export default function Aboutme() {
     return (
         <main id='about-main'>
             <div id='container1' className='d-flex flex-wrap container-fluid justify-content-center'>
-                <figure id='idCard' className='bg-primary card text-white pb-0'>
+                <figure id='idCard' className='bg-primary card col-sm-2 text-white pb-0 mx-5'>
                     <img src={proPic} id='pic' alt='Cole Sexson' />
 
                     <figcaption className='card-body'>
@@ -30,71 +30,79 @@ export default function Aboutme() {
                     </figcaption>
                 </figure>
 
-                <div id='aboutCont' className='d-flex flex-column justify-content-center col-sm-8'>
-                    <section id='about' className=' p-4'>
+                <div id='aboutCont' className='d-flex flex-column justify-content-center col '>
+                    <section id='about' className=' p-4 mb-5'>
                         <h1 className='text-center'>
                             About Me
                         </h1>
 
                         <p className='aboutP'>
-                            Hello!  Thanks for checking out my online portfolio.  I am a recent graduate of the Univerity of Arizona Full Stack Web Development Certificate program.
+                            Hello!  Thanks for checking out my online portfolio.  I specialize in front end frame works and design with React.
                         </p>
                         <p className='aboutP'>
-                            I find myself most enjoying the front end of my apps that I have created.  This website is my excersise in honing my skills with React.  I am enjoying the website so far and have much planned for it.
+                            I am a recent graduate of the University of Arizona's Full Stack Web Development Certification Program. Additionally, I have 5 years of experience in leadership and project management.
+                        </p>
+                        <p>
+                            Please take a look around my site, I am always working on something new.
                         </p>
 
-                        <h3 className='text-center container col-5 mt-5 pb-1'>
+                    </section>
+                    <section id='skills' className='bg-secondary col-sm-8 mx-auto mb-5'>
+                        <h3 id='skills-banner' className='text-center p-1 mb-1'>
                             Skills
                         </h3>
 
-                        <table className='mx-auto text-white '>
+                        <table id='skills-table' className='mx-auto text-white'>
                             <tbody>
-                            <tr>
-                                <td className='cell'>
-                                    <SiHtml5 className='me-2'></SiHtml5>
-                                    HTML-5
-                                </td>
-                                <td className='cell'>
-                                    <SiMongodb className='me-2'></SiMongodb>
-                                    Mongo db
-                                </td>
-                                <td className='cell'>
-                                    <SiReact className='me-2'></SiReact>
-                                    Ract js
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className='cell'>
-                                    <SiCss3 className='me-2'></SiCss3>
-                                    CSS
-                                </td>
-                                <td className='cell'>
-                                    <SiBootstrap className='me-2'></SiBootstrap>Bootstrap
-                                </td>
-                                <td className='cell'>
-                                    <SiNodedotjs className='me-2'></SiNodedotjs>
-                                    Node js
-                                </td>
-                            </tr>
-                            <tr>
-                                <td className='cell'>
-                                    <SiJavascript className='me-2'></SiJavascript>
-                                    JavaScript
-                                </td>
-                                <td className='cell'>
-                                    <SiGraphql className='me-2'></SiGraphql>
-                                    Graphql
-                                </td>
-                                <td className='cell'>
-                                    <SiExpress className='me-2'></SiExpress>
-                                    Express js
-                                </td>
-                            </tr>
+                                <tr>
+                                    <td className='cell'>
+                                        <SiHtml5 className='me-2'></SiHtml5>
+                                        HTML-5
+                                    </td>
+                                    <td className='cell'>
+                                        <SiMongodb className='me-2'></SiMongodb>
+                                        Mongo db
+                                    </td>
+                                    <td className='cell'>
+                                        <SiReact className='me-2'></SiReact>
+                                        Ract js
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='cell'>
+                                        <SiCss3 className='me-2'></SiCss3>
+                                        CSS
+                                    </td>
+                                    <td className='cell'>
+                                        <SiBootstrap className='me-2'></SiBootstrap>Bootstrap
+                                    </td>
+                                    <td className='cell'>
+                                        <SiNodedotjs className='me-2'></SiNodedotjs>
+                                        Node js
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td className='cell'>
+                                        <SiJavascript className='me-2'></SiJavascript>
+                                        JavaScript
+                                    </td>
+                                    <td className='cell'>
+                                        <SiGraphql className='me-2'></SiGraphql>
+                                        Graphql
+                                    </td>
+                                    <td className='cell'>
+                                        <SiExpress className='me-2'></SiExpress>
+                                        Express js
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </section>
                 </div>
-            <Ticker />
+                
+                <aside className='text-white col-sm-2 mx-5 bg-secondary'>
+                        aside
+                </aside>
             </div>
         </main>
     )

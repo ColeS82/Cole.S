@@ -1,12 +1,15 @@
 import Ticker from '../Tickers/Ticker';
-import Resume from '../../images/Resume.pdf'
+import Resume from '../../images/Resume.pdf';
 import { SiHtml5, SiCss3, SiJavascript, SiBootstrap, SiNodedotjs, SiExpress, SiMongodb, SiReact, SiGraphql, } from 'react-icons/si';
 import proPic from '../../images/Cole.png';
+import Crypto from '../../images/crypto.jpeg';
+import Onlydevs from '../../images/only-devs.png'
 import './Aboutme.css';
+import MyCarousel from './MyCarousel';
 export default function Aboutme() {
     return (
         <main id='about-main'>
-            <div id='container1' className='d-flex flex-wrap container-fluid justify-content-center'>
+            <div id='container1' className='d-flex flex-wrap container-fluid col-sm-10'>
                 <figure id='idCard' className='bg-primary card col-sm-2 text-white pb-0 mx-5'>
                     <img src={proPic} id='pic' alt='Cole Sexson' />
 
@@ -37,7 +40,7 @@ export default function Aboutme() {
                         </h1>
 
                         <p className='aboutP'>
-                            Hello!  Thanks for checking out my online portfolio.  I specialize in front end frame works and design with React.
+                            Hello!  Thanks for checking out my online portfolio.  I specialize in front end development and design with the React front end framework.
                         </p>
                         <p className='aboutP'>
                             I am a recent graduate of the University of Arizona's Full Stack Web Development Certification Program. Additionally, I have 5 years of experience in leadership and project management.
@@ -100,9 +103,11 @@ export default function Aboutme() {
                     </section>
                 </div>
                 
-                <aside className='text-white col-sm-2 mx-5 bg-secondary'>
-                        aside
-                </aside>
+            </div>
+        
+            <div id='carousel' className='container col-sm-4 p-4 bg-dark'>
+                <h3 className='text-center text-white border-bottom pb-1 container mb-3'>Featured works</h3>
+            <MyCarousel />
             </div>
         </main>
     )

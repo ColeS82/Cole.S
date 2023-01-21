@@ -21,7 +21,7 @@ export default function Ticker() {
     );
 
     return (
-        <table id='Ticker' className='text-success col bg-black m-5 '>
+        <table id='Ticker' className='text-success col bg-black mt-5 mx-auto'>
             <tbody>
                 <tr id='btc' className='align-middle tr'>
                     <td className='col-1 p-1'>

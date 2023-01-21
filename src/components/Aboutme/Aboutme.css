@@ -67,8 +67,9 @@
     margin-bottom: 100px;
 }
 
-#cryptoImage:hover {
-scale: 1.1;
+#Ticker {
+    max-width: 600px;
+    border-radius: 20px;
 }
 
 .tr {

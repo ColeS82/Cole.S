@@ -34,7 +34,7 @@ export default function Aboutme() {
                 </figure>
 
                 <div id='aboutCont' className='d-flex flex-column justify-content-center col '>
-                    <section id='about' className=' p-4 mb-5'>
+                    <section id='about' className=' p-4 mb-5 bg-dark'>
                         <h1 className='text-center'>
                             About Me
                         </h1>
@@ -105,7 +105,7 @@ export default function Aboutme() {
                 
             </div>
         
-            <div id='carousel' className='container col-sm-4 p-4 bg-dark'>
+            <div id='carousel' className='container col-sm-4 p-4 bg-dark border'>
                 <h3 className='text-center text-white border-bottom pb-1 container mb-3'>Featured works</h3>
             <MyCarousel />
             </div>

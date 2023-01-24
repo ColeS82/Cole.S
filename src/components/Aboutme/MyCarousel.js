@@ -10,7 +10,7 @@ export default function myCarousel() {
         <Carousel.Item interval={5000}>
           <Link to='/Crypto'>
           <img
-            className="d-block w-100 my-5 rounded"
+            className="d-block w-100 my-4 rounded"
             src={crypto}
             alt="First slide"
           />

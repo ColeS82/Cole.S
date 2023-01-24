@@ -12,15 +12,15 @@ import { Route, Routes } from 'react-router-dom'
 function App() {
 
   return (
-    <>
+    <div>
       <Header />
       <Routes>
-        <Route path='/cole.s' element={<Home />} />
         <Route path='/Aboutme' element={<Aboutme />} />
         <Route path='/Crypto' element= {<Crypto />}/>
+        <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

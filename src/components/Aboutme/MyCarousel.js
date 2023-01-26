@@ -10,7 +10,7 @@ export default function myCarousel() {
         <Carousel.Item interval={5000}>
           <Link to='/Crypto'>
           <img
-            className="d-block w-100 my-4 rounded"
+            className="w-100 mt-4 mb-5 rounded"
             src={crypto}
             alt="First slide"
           />
@@ -19,15 +19,16 @@ export default function myCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={5000}>
-          <img
-            className="d-block w-100 mt-3 mb-5 rounded"
-            src={Onlydevs}
-            alt="Second slide"
-          />
+          <a href='https://the-only-devs.herokuapp.com/' target='_blank'>
+            <img
+              className="w-100 mt-3 mb-5 rounded"
+              src={Onlydevs}
+              alt="Second slide"
+            />
+          </a>
           <Carousel.Caption>
           </Carousel.Caption>
         </Carousel.Item>
-        
       </Carousel>
     </div>
   )

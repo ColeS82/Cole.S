@@ -7,7 +7,7 @@ import antidrink from '../../images/antidrink.webp'
 export default function Myworks() {
     return (
         <main style={{fontFamily: 'Georgia, serif'}}>
-            <h1 className="text-white text-center py-4 border-bottom">
+            <h1 className=" text-center py-4 border-3 border-bottom border-top border-primary bg-secondary">
                 My Work
             </h1>
 
@@ -62,7 +62,6 @@ export default function Myworks() {
                     </h5>
                     <div className="card mt-sm-3 bg-secondary">
                         <div className="card-body">
-                           
                         </div>
                     </div>
                 </section>

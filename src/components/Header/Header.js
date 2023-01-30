@@ -5,19 +5,18 @@ import './Header.css'
 
 export default function Header() {
 
-
-
-    
     return (
         <header>
             <nav className="navbar navbar-expand-sm bg-black navbar-dark">
                 <div className="container-fluid mx-2">
                     <div className='col-sm-3'>
-                        <img id='logo' className='mx-1' src={logo} alt='logo' />
-
-                        <div className='text-white '>
-                            Cole.S
-                        </div>
+                        <Link to='/'>
+                            <img id='logo' className='mx-1' src={logo} alt='logo' />
+                            
+                            <div className='text-white '>
+                                Cole.S
+                            </div>
+                        </Link>
                     </div>
                     <Clock />
 
@@ -33,7 +32,7 @@ export default function Header() {
 
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tools</a>
-                                <ul className="dropdown-menu" style={{backgroundColor: 'rgb(18, 164, 237)'}}>
+                                <ul className="dropdown-menu" style={{ backgroundColor: 'rgb(18, 164, 237)' }}>
                                     <li>
                                         <a className="dropdown-item" href="#">Password Generator</a>
                                     </li>

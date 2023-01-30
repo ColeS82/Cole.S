@@ -17,7 +17,7 @@ export default function Myworks() {
             <div className="d-sm-flex container justify-content-around mx-auto text-white text-center mt-5">
 
                 <section className="col-sm-3 works">
-                    <h5 className='border-bottom mx-5 pb-1'>
+                    <h5 className='border-bottom col-6 container pb-1'>
                         OnlyDevs
                     </h5>
                     <div className="card mt-sm-3 bg-secondary">

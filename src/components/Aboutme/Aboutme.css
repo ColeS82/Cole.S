@@ -4,12 +4,10 @@
 
 #pic {
     max-height: 350px;
-    /* object-fit: contain; */
     border-radius: 80px;
 }
 
 #idCard {
-
     max-width: fit-content;
     border-radius: 90px 5px 90px 5px;
     padding: 40px 10px 25px 10px;

@@ -7,24 +7,14 @@ import antidrink from '../../images/antidrink.webp'
 export default function Myworks() {
     return (
         <main style={{ fontFamily: 'Georgia, serif' }}>
-            <h1 className=" text-center py-4 border-4 border-bottom border-top border-primary bg-secondary">
-                My Work
-            </h1>
+            <div className=''>
+                <h1 id='title' className=" text-center py-4 border-4 border-bottom border-top border-primary bg-secondary col-sm-3 mt-4 mx-sm-auto mx-3">
+                    My Work
+                </h1>
+
+            </div>
 
             <div className="d-sm-flex container justify-content-around mx-auto text-white text-center mt-5">
-                <section className="col-sm-3 works">
-                    <h5 className='border-bottom mx-5 pb-1'>
-                        My Crypto Ticker
-                    </h5>
-                    <div className="card mt-sm-5 bg-secondary">
-                        <Link to='/crypto'>
-                            <div className="card-body">
-                                <img className='rounded' src={crypto} style={{ maxWidth: '100%' }}>
-                                </img>
-                            </div>
-                        </Link>
-                    </div>
-                </section>
 
                 <section className="col-sm-3 works">
                     <h5 className='border-bottom mx-5 pb-1'>
@@ -37,6 +27,20 @@ export default function Myworks() {
                                 </img>
                             </a>
                         </div>
+                    </div>
+                </section>
+
+                <section className="col-sm-3 works">
+                    <h5 className='border-bottom mx-5 pb-1'>
+                        My Crypto Ticker
+                    </h5>
+                    <div className="card mt-sm-5 bg-secondary">
+                        <Link to='/crypto'>
+                            <div className="card-body">
+                                <img className='rounded' src={crypto} style={{ maxWidth: '100%' }}>
+                                </img>
+                            </div>
+                        </Link>
                     </div>
                 </section>
 

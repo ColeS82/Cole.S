@@ -38,15 +38,14 @@ export default function Header() {
                                         <a className="dropdown-item" href="#">Password Generator</a>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="#">Work Day Scheduler</a>
+                                        <a className="dropdown-item" href="https://coles82.github.io/Workday-Sceduler/" target='_blank'>Work Day Scheduler</a>
                                     </li>
                                 </ul>
                             </li>
 
                             <li className="nav-item">
-                                <a className="nav-link" href="#">My Work</a>
+                                <Link to='/Myworks' className="nav-link" href="#">My Work</Link>
                             </li>
-
 
                             <li className="nav-item">
                                 <Link to="/Aboutme" className="nav-link">About Me</Link>

@@ -6,6 +6,7 @@ import Crypto from '../../images/crypto.jpeg';
 import Onlydevs from '../../images/only-devs.png'
 import './Aboutme.css';
 import MyCarousel from './MyCarousel';
+import { Link } from 'react-router-dom'
 export default function Aboutme() {
     return (
         <main id='about-main'>
@@ -105,10 +106,16 @@ export default function Aboutme() {
                 
             </div>
         
-            <div id='carousel' className='container col-sm-4 p-4 bg-dark border'>
-                <h3 className='text-center text-white border-bottom pb-1 container mb-3'>Featured works</h3>
+            <div id='carousel' className='mx-3 mx-sm-auto col-sm-4 p-4 bg-dark border'>
+                <h3 className='text-center text-white border-bottom pb-1 container mb-3'>Featured Works</h3>
             <MyCarousel />
             </div>
+
+            <p className='text-center text-white'>
+                Be sure to check out my other work <Link to='/Myworks'>
+                here
+                </Link>
+            </p>
         </main>
     )
 }

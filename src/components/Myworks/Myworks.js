@@ -6,8 +6,8 @@ import onlyDevs from '../../images/only-devs.png'
 import antidrink from '../../images/antidrink.webp'
 export default function Myworks() {
     return (
-        <main style={{fontFamily: 'Georgia, serif'}}>
-            <h1 className=" text-center py-4 border-3 border-bottom border-top border-primary bg-secondary">
+        <main style={{ fontFamily: 'Georgia, serif' }}>
+            <h1 className=" text-center py-4 border-4 border-bottom border-top border-primary bg-secondary">
                 My Work
             </h1>
 
@@ -18,10 +18,10 @@ export default function Myworks() {
                     </h5>
                     <div className="card mt-sm-5 bg-secondary">
                         <Link to='/crypto'>
-                        <div className="card-body">
-                            <img className='rounded' src={crypto} style={{maxWidth: '100%'}}>
-                            </img>
-                        </div>
+                            <div className="card-body">
+                                <img className='rounded' src={crypto} style={{ maxWidth: '100%' }}>
+                                </img>
+                            </div>
                         </Link>
                     </div>
                 </section>
@@ -33,7 +33,7 @@ export default function Myworks() {
                     <div className="card mt-sm-3 bg-secondary">
                         <div className="card-body">
                             <a href='https://the-only-devs.herokuapp.com/' target='_blank'>
-                                <img className='rounded' src={onlyDevs} style={{maxWidth: '100%'}}>
+                                <img className='rounded' src={onlyDevs} style={{ maxWidth: '100%' }}>
                                 </img>
                             </a>
                         </div>
@@ -46,10 +46,10 @@ export default function Myworks() {
                     </h5>
                     <div className="card mt-sm-3 bg-secondary">
                         <div className="card-body">
-                        <a href='https://trufl.github.io/nonsocial-drinker/' target='_blank'>
-                            <img className='rounded' src={antidrink} style={{maxHeight: '130px'}}>
-                            </img>
-                        </a>
+                            <a href='https://trufl.github.io/nonsocial-drinker/' target='_blank'>
+                                <img className='rounded' src={antidrink} style={{ maxHeight: '130px' }}>
+                                </img>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -67,13 +67,13 @@ export default function Myworks() {
                 </section>
 
                 <section className="col-sm-3 works">
-                <h5 className='border-bottom mx-5 pb-1'>
+                    <h5 className='border-bottom mx-5 pb-1'>
                         Note Taker - Express
                     </h5>
                     <div className="card mt-sm-3 bg-secondary">
                         <div className="card-body">
                             <a href='https://github.com/ColeS82/Note_taker' target='_blank'>
-                                <img className='rounded' style={{maxWidth:'100%'}} src={noteTaker}>
+                                <img className='rounded' style={{ maxWidth: '100%' }} src={noteTaker}>
                                 </img>
                             </a>
                         </div>

@@ -22,6 +22,7 @@
 
 #about-main {
     background-color: rgb(50, 50, 50);
+    margin-bottom: 200px;
 }
 
 #about {
@@ -63,8 +64,8 @@
 #carousel{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 30px;
-    max-height: 450px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    min-height: 430px;
 }
 
 #Ticker {
@@ -87,6 +88,11 @@
     #skills-table {
         margin-top: 10px;
         margin-bottom: 30px;
+    }
+
+    #carousel{
+        min-height: 320px;
+        
     }
 
 }

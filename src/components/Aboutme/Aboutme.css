@@ -28,7 +28,7 @@
     color: whitesmoke;
     
     border-radius: 10px 90px 90px 10px;
-    border: solid gray;
+    border: solid ;
     font-size: x-large;
     text-indent: 1.5rem;
 
@@ -36,7 +36,7 @@
 
 #skills {
     border-radius: 90px;
-    border: solid rgb(151, 170, 198);
+    border: solid white;
     overflow: hidden;
     max-width: 550px;
 }

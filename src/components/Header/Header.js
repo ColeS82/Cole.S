@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import Clock from '../Clock/Clock'
 import logo from '../../images/channels4_profile.jpg'
 import './Header.css'
+import Passgen from '../Passgen/Passgen'
 
 export default function Header() {
 
@@ -34,7 +35,7 @@ export default function Header() {
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tools</a>
                                 <ul className="dropdown-menu" style={{ backgroundColor: 'rgb(18, 164, 237)' }}>
                                     <li>
-                                        <a className="dropdown-item" href="#">Password Generator</a>
+                                        <Passgen />
                                     </li>
                                     <li>
                                         <a className="dropdown-item" href="https://coles82.github.io/Workday-Sceduler/" target='_blank'>Work Day Scheduler</a>

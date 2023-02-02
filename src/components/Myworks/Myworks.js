@@ -1,9 +1,11 @@
-import myWorks from './myWorks.css'
-import { Link } from 'react-router-dom'
-import crypto from '../../images/crypto.jpeg'
-import noteTaker from '../../images/noteTaker.png'
-import onlyDevs from '../../images/only-devs.png'
-import antidrink from '../../images/antidrink.webp'
+import './myWorks.css';
+import { Link } from 'react-router-dom';
+import crypto from '../../images/crypto.jpeg';
+import noteTaker from '../../images/noteTaker.png';
+import onlyDevs from '../../images/only-devs.png';
+import antidrink from '../../images/antidrink.webp';
+import Passgen from '../Passgen/Passgen'
+
 export default function Myworks() {
     return (
         <main style={{ fontFamily: 'Georgia, serif' }}>
